@@ -28,7 +28,7 @@ function LandingPage() {
           </Button>
           <Button
             className="text-xl px-5 rounded-lg bg-white text-black hover:bg-blue-500 transition-colors"
-            onClick={() => navigate("/login")}
+            onClick={() => navigate("https://socialate.vercel.app/login")}
           >
             Ngo
           </Button>
