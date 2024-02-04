@@ -1,5 +1,6 @@
 import { Button } from "@/components/ui/button";
 import React from "react";
+import { Link } from "react-router-dom";
 import { useNavigate } from "react-router-dom";
 
 function LandingPage() {
@@ -26,12 +27,11 @@ function LandingPage() {
           >
             Contributor
           </Button>
-          <Button
-            className="text-xl px-5 rounded-lg bg-white text-black hover:bg-blue-500 transition-colors"
-            onClick={() => navigate("https://socialate.vercel.app/login")}
-          >
-            Ngo
-          </Button>
+          <Link to="https://socialate.vercel.app/login">
+            <Button className="text-xl px-5 rounded-lg bg-white text-black hover:bg-blue-500 transition-colors">
+              Ngo
+            </Button>
+          </Link>
         </div>
       </div>
     </div>
