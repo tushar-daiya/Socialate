@@ -8,7 +8,7 @@ function AuthLayout() {
             <Outlet/>
         </div>
         <div className="w-1/2 flex">
-            <img src='authbanner.png' className='w-full'/>
+            <img src='authbanner.webp' className='w-full'/>
         </div>
     </div>
   )
